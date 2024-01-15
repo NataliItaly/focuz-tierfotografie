@@ -1,10 +1,12 @@
 @import "./components/header/header.css";
+@import "./components/burger/burger.css";
 @import "./components/section/section.css";
 @import "./components/first-screen/first-screen.css";
 @import "./components/about/about.css";
 @import "./components/portfolio/portfolio.css";
-@import "./components/footer/footer.css";
+@import "./components/price/price.css";
 @import "./components/contacts/contacts.css";
+@import "./components/footer/footer.css";
 
 :root {
   --background: #b3e79e70;
@@ -28,9 +30,15 @@ body {
   font-size: 16px;
 }
 
+.body_grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container_flex {
@@ -47,4 +55,8 @@ body {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+button {
+  cursor: pointer;
 }

@@ -1,5 +1,8 @@
 .first-screen {
-  background: var(--background);
+  background: center / cover no-repeat url("../../images/home_bg.jpg"),
+    var(--background);
+
+  padding: 0;
 }
 
 .first-screen__img {

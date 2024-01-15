@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="body_grid">
     <header class="header">
       <div class="container container_flex">
         <a href="index.html">
@@ -20,36 +20,49 @@
         </a>
         <nav class="navigation">
           <ul class="header__menu">
-            <li>
+            <li class="header__menu-item">
               <a href="index.html" class="header__link header__link_active"
                 >Home</a
               >
             </li>
-            <li><a href="price.html" class="header__link">Preise</a></li>
-            <li><a href="portfolio.html" class="header__link">Portfolio</a></li>
-            <li>
+            <li class="header__menu-item">
               <a href="about.html" class="header__link">Über mich</a>
             </li>
-            <li><a href="contacts.html" class="header__link">Kontakt</a></li>
+            <li class="header__menu-item">
+              <a href="portfolio.html" class="header__link">Portfolio</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="price.html" class="header__link">Preise</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="contacts.html" class="header__link">Kontakt</a>
+            </li>
           </ul>
         </nav>
-        <a href="https://www.facebook.com/fokuz.photo" class="header__btn"
-          ><img
+        <a href="https://www.facebook.com/fokuz.photo" class="header__btn">
+          <img
             src="./images/fb-icon.svg"
             class="header__social"
             alt="facebook link"
-        /></a>
+          />
+        </a>
         <a href="tel:015773999273" class="header__tel">0 1577 3999 273</a>
+        <div class="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </div>
       </div>
     </header>
     <main>
-      <h1 class="visually-hidden">Tierfotografie</h1>
       <section class="section first-screen">
-        <img
+        <!--  <img
           src="./images/home_bg.jpg"
           alt="running dog"
           class="first-screen__img"
-        />
+        /> -->
+        <h1 class="first-screen__title">Beste Fotos mit besten Freunden</h1>
       </section>
     </main>
     <footer class="footer">
