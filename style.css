@@ -1,0 +1,46 @@
+@import "./components/header/header.css";
+@import "./components/first-screen/first-screen.css";
+@import "./components/portfolio/portfolio.css";
+@import "./components/footer/footer.css";
+
+:root {
+  --background: #b3e79e70;
+  --main-color: rgb(21, 116, 57);
+  --secondary-color: rgb(48, 168, 94);
+  --border: 3px solid rgb(21, 116, 57);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h1,
+h2 {
+  color: var(--main-color);
+  text-align: center;
+}

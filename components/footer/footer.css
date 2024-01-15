@@ -1,0 +1,10 @@
+.footer {
+  background: var(--background);
+  text-align: center;
+  padding: 20px;
+  color: var(--main-color);
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 15px;
+}
