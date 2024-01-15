@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tierfotografie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container_flex">
+        <a href="index.html">
+          <img src="./images/logo.svg" alt="logo" class="header__logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="header__menu">
+            <li>
+              <a href="index.html" class="header__link">Home</a>
+            </li>
+            <li><a href="price.html" class="header__link">Preise</a></li>
+            <li><a href="portfolio.html" class="header__link">Portfolio</a></li>
+            <li>
+              <a href="about.html" class="header__link">Über mich</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="header__link header__link_active"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="https://www.facebook.com/fokuz.photo" class="header__btn"
+          ><img
+            src="./images/fb-icon.svg"
+            class="header__social"
+            alt="facebook link"
+        /></a>
+        <a href="tel:015773999273" class="header__tel">0 1577 3999 273</a>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <h1 class="section__title">Wählen Sie den Tag des Fotoshootings</h1>
+        <form action="" method="get" class="contacts__form">
+          <p class="contacts__form-block">
+            <label for="name" class="contacts__label"
+              >Geben Sie Ihren Namen ein</label
+            >
+            <input
+              class="contacts__input"
+              id="name"
+              type="text"
+              placeholder="Ihr Namen:"
+            />
+          </p>
+          <p class="contacts__form-block">
+            <label for="email" class="contacts__label"
+              >Geben Sie Ihre E-Mail-Adresse ein
+            </label>
+            <input
+              class="contacts__input"
+              id="email"
+              type="text"
+              placeholder="Ihr E-mail:"
+            />
+          </p>
+          <p class="contacts__form-block">
+            <label for="tel" class="contacts__label"
+              >Geben Sie Ihre Telefonnummer ein</label
+            >
+            <input
+              class="contacts__input"
+              id="tel"
+              type="tel"
+              placeholder="Ihre Telefonnummer:"
+            />
+          </p>
+          <p class="contacts__form-block">
+            <label for="date" class="contacts__label"
+              >geben Sie das Datum ein</label
+            >
+            <input
+              class="contacts__input"
+              type="date"
+              name="date"
+              id="date"
+              required
+            />
+          </p>
+          <div>
+            <p class="contacts__label contacts__form-title">
+              Wählen Sie Ihr Tier
+            </p>
+            <p class="contacts__radio">
+              <label for="pferd" class="contacts__label contacts__label_radio"
+                >Pferd</label
+              >
+              <input type="radio" name="animal" id="pferd" />
+            </p>
+            <p class="contacts__radio">
+              <label for="hund" class="contacts__label contacts__label_radio"
+                >Hund</label
+              >
+              <input type="radio" name="animal" id="hund" />
+            </p>
+            <p class="contacts__radio">
+              <label for="katze" class="contacts__label contacts__label_radio"
+                >Katze</label
+              >
+              <input type="radio" name="animal" id="katze" />
+            </p>
+            <p class="contacts__radio">
+              <label
+                for="schildkröte"
+                class="contacts__label contacts__label_radio"
+                >Schildkröte</label
+              >
+              <input type="radio" name="animal" id="schildkröte" />
+            </p>
+          </div>
+          <p class="contacts__form-block">
+            <label for="textarea" class="contacts__label contacts__form-title"
+              >Ihre Nachricht:</label
+            >
+            <textarea
+              class="contacts__input"
+              name="comment"
+              cols="50"
+              rows="7"
+              id="textarea"
+            ></textarea>
+          </p>
+          <p>
+            <input
+              class="contacts__btn contacts__btn_send"
+              type="submit"
+              value="Senden"
+            />
+          </p>
+          <p>
+            <input class="contacts__btn" type="reset" value="Rückgängig" />
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__item">All right reserved</div>
+      <div class="footer__item" id="year">2024</div>
+    </footer>
+  </body>
+</html>

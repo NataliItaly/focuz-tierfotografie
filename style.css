@@ -1,7 +1,10 @@
 @import "./components/header/header.css";
+@import "./components/section/section.css";
 @import "./components/first-screen/first-screen.css";
+@import "./components/about/about.css";
 @import "./components/portfolio/portfolio.css";
 @import "./components/footer/footer.css";
+@import "./components/contacts/contacts.css";
 
 :root {
   --background: #b3e79e70;
@@ -13,6 +16,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -22,10 +26,6 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-}
-
-main {
-  padding: 40px 20px;
 }
 
 .container {
@@ -39,8 +39,12 @@ main {
   align-items: center;
 }
 
-.h1,
-h2 {
-  color: var(--main-color);
-  text-align: center;
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }

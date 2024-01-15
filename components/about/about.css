@@ -1,0 +1,45 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: repeat(3, auto);
+}
+
+.about__title {
+  font-size: 200%;
+  font-weight: 600;
+}
+
+.about__img-block {
+  min-width: 350px;
+  padding: 20px;
+}
+
+.about__img {
+  width: 100%;
+  height: auto;
+}
+
+.string-block {
+  width: 50%;
+  padding: 10px;
+  display: inline-block;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin: 0 5px 0;
+  /* background-color: brown;*/
+  height: 100%;
+  top: -180px;
+  position: relative;
+}
+
+.about__text {
+  min-width: 450px;
+  grid-column: 2 / 3;
+  grid-row: 1 / -1;
+  padding: 30px 20px;
+}
+
+.about__text p {
+  margin-bottom: 15px;
+}
