@@ -18,6 +18,7 @@
 .contacts__label {
   display: inline-block;
   margin-bottom: 5px;
+  position: relative;
 }
 
 .contacts__input {
@@ -29,17 +30,61 @@
   margin-bottom: 15px;
 }
 
-.contacts__radio {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 5px;
+.contacts__radio-label {
+  display: inline-flex;
+  position: relative;
 }
 
-.contacts__label_radio {
-  margin-bottom: 0;
+.contacts__radio-input {
+  position: absolute;
+  outline: none;
+  clip: rect(0, 0, 0, 0);
+}
+
+.contacts__radio-state {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contacts__radio-control {
+  width: 17px;
+  height: 17px;
+  border: 1px solid var(--main-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  position: relative;
+}
+
+.contacts__radio-control::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.contacts__radio-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.contacts__radio-input:checked
+  + .contacts__radio-state
+  .contacts__radio-control {
+  border-color: var(--main-color);
+}
+
+.contacts__radio-input:checked
+  + .contacts__radio-state
+  .contacts__radio-control::before {
+  background-color: var(--main-color);
 }
 
 .contacts__form-title {
