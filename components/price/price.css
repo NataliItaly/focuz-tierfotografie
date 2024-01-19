@@ -29,6 +29,8 @@
 
 .price__title {
   font-size: 150%;
+  font-family: "IBM Plex Mono", monospace;
+  color: #434a46;
   line-height: 56px;
   text-align: center;
 }
