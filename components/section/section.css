@@ -5,6 +5,7 @@
 .section__title {
   color: var(--main-color);
   text-align: center;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 200%;
   font-weight: 600;
   margin-bottom: 30px;

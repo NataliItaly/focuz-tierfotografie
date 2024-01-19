@@ -37,13 +37,14 @@
 }
 
 .header__logo {
+  width: 150px;
   height: 80px;
-  margin: 5px 0 0 10px;
+  background: center url(../../images/logo.svg);
   transition: 0.4s;
 }
 
 .header__logo:hover {
-  opacity: 0.7;
+  background: center url(../../images/logo_hover.svg);
 }
 
 .header__menu {
@@ -54,19 +55,29 @@
 }
 
 .header__social {
+  width: 40px;
+  height: 40px;
+  background: center url(../../images/fb-icon.svg);
   transition: 0.4s;
 }
 
 .header__social:hover {
-  opacity: 0.7;
+  background: center url(../../images/fb-icon_hover.svg);
 }
 
 .header__tel {
   text-decoration: none;
   padding: 10px 20px;
   font-size: 17px;
-  font-weight: bold;
-  background: rgba(145, 158, 153, 0.37);
+  font-weight: 500;
+  background: rgba(145, 158, 153, 0.369);
   border-radius: 100px;
   color: var(--main-color);
+  transition: 0.6s;
+}
+
+.header__tel:hover {
+  background: var(--main-color);
+  color: #b3e79e;
+  /* color: var(--secondary-color); */
 }

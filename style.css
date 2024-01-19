@@ -1,7 +1,7 @@
 @import "./components/header/header.css";
 @import "./components/burger/burger.css";
 @import "./components/section/section.css";
-@import "./components/first-screen/first-screen.css";
+@import "./components/home/home.css";
 @import "./components/about/about.css";
 @import "./components/portfolio/portfolio.css";
 @import "./components/price/price.css";
@@ -38,6 +38,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
