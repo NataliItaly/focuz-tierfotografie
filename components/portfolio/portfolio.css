@@ -48,22 +48,21 @@
 }
 
 .portfolio__item {
-  width: 40%;
+  /* width: 40%;
   background: var(--background);
   padding: 5px;
   border-radius: 10px;
   transition: 0.4s;
-  box-shadow: 1px 1px 10px hsla(103, 60%, 76%, 0.291);
+  box-shadow: 1px 1px 10px hsla(103, 60%, 76%, 0.291); */
 }
 
 .portfolio__img {
-  width: 100%;
+  /* width: 100%;
   height: auto;
-  /* border: var(--border); */
   border-radius: 10px;
-  transition: 0.4s;
+  transition: 0.4s; */
 }
 
-.portfolio__item:hover {
+/* .portfolio__item:hover {
   padding: 20px;
-}
+} */

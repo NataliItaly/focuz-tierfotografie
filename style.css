@@ -3,6 +3,7 @@
 @import "./components/section/section.css";
 @import "./components/home/home.css";
 @import "./components/about/about.css";
+@import "./components/card/card.css";
 @import "./components/portfolio/portfolio.css";
 @import "./components/price/price.css";
 @import "./components/contacts/contacts.css";
