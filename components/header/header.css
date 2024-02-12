@@ -81,3 +81,15 @@
   color: #b3e79e;
   /* color: var(--secondary-color); */
 }
+
+@media (max-width: 1030px) {
+  .header__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .header__tel {
+    display: none;
+  }
+}
