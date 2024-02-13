@@ -27,6 +27,10 @@
   width: 55%;
 }
 
+.portfolio .portfolio__card:nth-child(odd) {
+  margin: 100px 20px 0 10px;
+}
+
 .portfolio__hover {
   content: "Item title";
   position: absolute;
