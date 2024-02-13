@@ -1,0 +1,23 @@
+.portfolio-width {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.portfolio-width .portfolio__card {
+  width: 40%;
+}
+
+.portfolio-width .portfolio__card img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-width .portfolio__card:nth-child(3),
+.portfolio-width .portfolio__card:nth-child(5),
+.portfolio-width .portfolio__card:nth-child(6) {
+  order: 1;
+}

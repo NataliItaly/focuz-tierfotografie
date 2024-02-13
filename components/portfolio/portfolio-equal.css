@@ -1,0 +1,46 @@
+.portfolio-equal {
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.portfolio-equal .portfolio__card {
+  width: 45%;
+  height: 450px;
+  flex-shrink: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-equal .portfolio__card:nth-child(1) {
+  background-image: url(./../../images/portfolio-nav/1.jpg);
+}
+
+.portfolio-equal .portfolio__card:nth-child(2) {
+  background-image: url(./../../images/portfolio-nav/2.jpg);
+}
+
+.portfolio-equal .portfolio__card:nth-child(3) {
+  background-image: url(./../../images/portfolio-nav/3.jpg);
+}
+
+.portfolio-equal .portfolio__card:nth-child(4) {
+  background-image: url(./../../images/portfolio-nav/4.jpg);
+}
+
+.portfolio-equal .portfolio__card:nth-child(5) {
+  background-image: url(./../../images/portfolio-nav/5.jpg);
+}
+
+.portfolio-equal .portfolio__card:nth-child(6) {
+  background-image: url(./../../images/portfolio-nav/6.jpg);
+}
+
+.portfolio-height .portfolio__card:nth-child(3),
+.portfolio-height .portfolio__card:nth-child(5),
+.portfolio-height .portfolio__card:nth-child(6) {
+  order: 1;
+}

@@ -1,0 +1,25 @@
+.portfolio-height {
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+  justify-content: space-around;
+}
+
+.portfolio-height .portfolio__card {
+  height: 350px;
+  width: fit-content;
+  flex-shrink: 1;
+}
+
+.portfolio-height .portfolio__card img {
+  height: 100%;
+  width: auto;
+}
+
+.portfolio-height .portfolio__card:nth-child(3),
+.portfolio-height .portfolio__card:nth-child(5),
+.portfolio-height .portfolio__card:nth-child(6) {
+  order: 1;
+}

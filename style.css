@@ -5,6 +5,9 @@
 @import "./components/about/about.css";
 @import "./components/card/card.css";
 @import "./components/portfolio/portfolio.css";
+@import "./components/portfolio/portfolio-width.css";
+@import "./components/portfolio/portfolio-height.css";
+@import "./components/portfolio/portfolio-equal.css";
 @import "./components/price/price.css";
 @import "./components/contacts/contacts.css";
 @import "./components/footer/footer.css";
